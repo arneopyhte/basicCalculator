@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+} 
+.container{
+    height: 100%;
+}
+canvas {
+  display: block;
+}
+
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #087b92;
+}
+.center{
+    position:absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+    
+}
